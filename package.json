@@ -1,0 +1,16 @@
+{
+  "name": "crstore-bun-issue",
+  "module": "index.ts",
+  "type": "module",
+  "trustedDependencies": ["@vlcn.io/crsqlite", "@vlcn.io/crsqlite-wasm"],
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "crstore": "^0.22.0",
+    "superstruct": "^1.0.3"
+  }
+}
